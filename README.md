@@ -1,1 +1,3 @@
 # VoiceGest
+Currently under development...
+Stay tuned for the launch of this amazing project!
