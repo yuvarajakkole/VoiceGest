@@ -1,0 +1,207 @@
+"This is by text commands"
+(myenv) (base) yuvarajrajuakkole@yuvarajs-MacBook-Air mediapipe % python delta_V_S/delta_text.py
+✅ Model loaded successfully.
+🗣️ Delta: Delta text assistant is ready. Type 'exit' to quit.
+⌨️ Enter your command: hello
+📌 Intent classified as: greeting
+🗣️ Delta: Hello! How can I assist you today?
+
+⌨️ Enter your command: what is time now
+📌 Intent classified as: time
+🗣️ Delta: The current time is 11:34 AM
+
+⌨️ Enter your command: open youtube
+📌 Intent classified as: open_youtube
+🗣️ Delta: Opening YouTube.
+
+⌨️ Enter your command: search for narendra
+📌 Intent classified as: search_website
+🗣️ Delta: Searching Google for narendra.
+
+⌨️ Enter your command: who is narendra modi
+📌 Intent classified as: get_info_subject
+🗣️ Delta: Searching Wikipedia for narendra modi...
+🗣️ Delta: According to Wikipedia:
+🗣️ Delta: Narendra Damodardas Modi (born 17 September 1950) is an Indian politician who has served as the  prime minister of India since 2014. Modi was the chief minister of Gujarat from 2001 to 2014 and is the member of parliament (MP) for Varanasi.
+
+⌨️ Enter your command: set reminder for 5 minitus
+📌 Intent classified as: reminder
+🗣️ Delta: What should I remind you about?
+🎤 Listening for command...
+👂 You said: study
+🗣️ Delta: At what time should I remind you?
+🎤 Listening for command...
+👂 You said: 10 am
+🗣️ Delta: Reminder set for 10 am, I will remind you to study.
+
+⌨️ Enter your command: tell me joke
+📌 Intent classified as: joke
+🗣️ Delta: A user friendly computer first requires a friendly user.
+
+⌨️ Enter your command: send message to akshay and message is come to college 
+📌 Intent classified as: messaging
+🗣️ Delta: Please say something like 'send message to [name] and the message is [your message]' or 'message [name] that [message]'.
+⌨️ Enter your command: send message to akshay and the message is come to college
+📌 Intent classified as: messaging
+🗣️ Delta: Sending your message to Akshay.
+🗣️ Delta: Message sent successfully.
+
+⌨️ Enter your command: put alaram for 5 am
+📌 Intent classified as: alarm
+🗣️ Delta: Alarm set for 05:00. I will notify you.
+
+⌨️ Enter your command: play Thunder song
+📌 Intent classified as: play_song_youtube
+🗣️ Delta: Playing thunder on YouTube.
+
+⌨️ Enter your command: what is weather in benagaluru
+📌 Intent classified as: search_google
+🗣️ Delta: Searching Google for what is weather in benagaluru.
+
+⌨️ Enter your command: weather at bengaluru
+📌 Intent classified as: weather
+🗣️ Delta: The weather in bengaluru is currently overcast clouds with a temperature of 26.6 degrees Celsius.
+
+⌨️ Enter your command: make a note
+📌 Intent classified as: notes
+🗣️ Delta: Do you want to add a new note or read your existing notes?
+🎤 Listening for command...
+👂 You said: add new
+🗣️ Delta: I didn't catch that. Please say 'add note' or 'read note'.
+⌨️ Enter your command: make a note
+📌 Intent classified as: notes
+🗣️ Delta: Do you want to add a new note or read your existing notes?
+🎤 Listening for command...
+👂 You said: new note
+🗣️ Delta: Okay, I'm ready to take your note. Say 'finish' or 'that's it' when you are done.
+🎤 Listening for command...
+Could not understand audio
+🗣️ Delta: No content was recorded for the note.
+
+⌨️ Enter your command: read note
+📌 Intent classified as: notes
+🗣️ Delta: Do you want to add a new note or read your existing notes?
+🎤 Listening for command...
+👂 You said: read the note
+🗣️ Delta: I didn't catch that. Please say 'add note' or 'read note'.
+
+⌨️ Enter your command: set timer for 5 seconds
+📌 Intent classified as: timer
+🗣️ Delta: Timer set for 0 minutes and 5 seconds.
+⌨️ Enter your command: 
+🗣️ Delta: Time is up!
+
+⌨️ Enter your command: activat gesture
+📌 Intent classified as: gesture_activation
+🗣️ Delta: Please say 'start gesture' to run NEWGEST or 'stop gesture' to stop it.
+
+⌨️ Enter your command: start gesture
+📌 Intent classified as: gesture_activation
+🗣️ Delta: Gesture mode activated. NEWGEST.py started.
+
+⌨️ Enter your command: stop gesture
+📌 Intent classified as: gesture_activation
+🗣️ Delta: Gesture mode deactivated. NEWGEST.py stopped.
+
+⌨️ Enter your command: exit
+🗣️ Delta: Shutting down. Have a great day!
+
+
+"This is by voice commands"
+Enter your command: hello
+📌 Intent classified as: greeting
+🗣️ Delta: Hello! How can I assist you today?
+
+Enter your command: how are you
+📌 Intent classified as: small_talk
+🗣️ Delta: I'm doing great! How about you?
+
+Enter your command: what's the time
+📌 Intent classified as: get_time
+🗣️ Delta: The current time is 3:45 PM.
+
+Enter your command: what's today's date
+📌 Intent classified as: get_date
+🗣️ Delta: Today’s date is 31 August 2025.
+
+Enter your command: what's the weather in Bangalore
+📌 Intent classified as: get_weather
+🗣️ Delta: The weather in Bangalore is 27°C with light rain.
+
+Enter your command: play some music
+📌 Intent classified as: play_music
+🗣️ Delta: Playing your favorite playlist now!
+
+Enter your command: stop music
+📌 Intent classified as: stop_music
+🗣️ Delta: Music has been stopped.
+
+Enter your command: tell me a joke
+📌 Intent classified as: tell_joke
+🗣️ Delta: Why don’t skeletons fight each other? They don’t have the guts!
+
+Enter your command: search for AI news
+📌 Intent classified as: web_search
+🗣️ Delta: Searching for AI news...
+
+Enter your command: open YouTube
+📌 Intent classified as: open_app
+🗣️ Delta: Opening YouTube for you.
+
+Enter your command: shutdown system
+📌 Intent classified as: shutdown
+🗣️ Delta: Shutting down the system. Please save your work!
+
+Enter your command: restart computer
+📌 Intent classified as: restart
+🗣️ Delta: Restarting your computer now.
+
+Enter your command: take a note
+📌 Intent classified as: note_taking
+🗣️ Delta: Sure, what would you like me to note?
+
+Enter your command: set a reminder for 7 PM
+📌 Intent classified as: set_reminder
+🗣️ Delta: Reminder set for 7 PM.
+
+Enter your command: show my calendar
+📌 Intent classified as: calendar_view
+🗣️ Delta: Here is your calendar for today.
+
+Enter your command: what's the battery percentage
+📌 Intent classified as: get_battery
+🗣️ Delta: Your battery is at 85%.
+
+Enter your command: tell me about Machine Learning
+📌 Intent classified as: information_request
+🗣️ Delta: Machine Learning is a field of AI that allows systems to learn from data and improve over time without explicit programming.
+
+Enter your command: send a message to John saying Hi
+📌 Intent classified as: send_message
+🗣️ Delta: Message sent to John: "Hi".
+
+Enter your command: send an email to Sarah about the project
+📌 Intent classified as: send_email
+🗣️ Delta: Email composed and sent to Sarah regarding the project.
+
+
+"Gesture mode activation function"
+Enter your command: start gesture control 
+📌 Intent classified as: gesture_activation
+🗣️ Delta: Gesture control activated. You can now use hand movements to control features.
+
+Enter your command: start gesture
+📌 Intent classified as: gesture_activation
+🗣️ Delta: Gesture mode activated. NEWGEST.py started.
+
+Enter your command: stop gesture
+📌 Intent classified as: gesture_activation
+🗣️ Delta: Gesture mode deactivated. NEWGEST.py stopped.
+
+Enter your command: goodbye
+📌 Intent classified as: farewell
+🗣️ Delta: Goodbye! Have a great day!
+
+
+
+

@@ -1,0 +1,37 @@
+Set Python Interpreter to Virtual Environment
+In VS Code:
+
+Press Cmd+Shift+P (or Ctrl+Shift+P)
+
+Type: Python: Select Interpreter
+
+Choose the one that shows:
+
+./.venv/bin/python   (or)
+./myenv/bin/python
+
+or
+
+1. Create a Virtual Environment
+python3 -m venv myenv
+
+2. Activate the Virtual Environment
+source myenv/bin/activate
+
+3. Install Required Packages
+pip install speechrecognition pyttsx3 pyjokes pywhatkit wikipedia pygame opencv-python mediapipe numpy pyautogui requests psutil
+
+which python
+
+
+
+Git push
+
+git init
+git remote add origin https://github.com/yuvarajakkole/VoiceGest.git
+git add path/to/yourfile.py         git add .  #for push full file
+git add path/to/yourfolder/
+git commit -m "Added specific file/folder"
+git branch -M main
+git remote add origin <your-repo-url>
+git push -u origin main
